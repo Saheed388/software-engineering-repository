@@ -451,14 +451,15 @@ text-align: left;
       grid-template-columns: 1fr; /* Display as a single column */
       grid-template-rows: auto auto; /* Adjust rows as needed */
       border-radius: 0; /* Remove border radius if needed */
-      margin: 0; /* Remove margin */
+      margin-left: 50px; /* Remove margin */
       padding-left: 50px; 
+      padding-right: 0px;
     }
   
     .first-body {
       /* width: %; Set width to 100% to occupy full width */
       /* max-width: 100%; Ensure content doesn't overflow */
-      margin-left: 0px;
+      margin-left: 20px;
       margin-right: 0;
       /* padding-left: 50px; Remove padding */
     }
