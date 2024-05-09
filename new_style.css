@@ -455,8 +455,9 @@ text-align: left;
     .first-body {
       width: 100%; /* Set width to 100% to occupy full width */
       max-width: 100%; /* Ensure content doesn't overflow */
-      margin-left: 30px;
-      padding: 0; /* Remove padding */
+      margin-left: 0px;
+      margin-right: 0;
+      padding-left: 50px; /* Remove padding */
     }
   
     .second-body{
