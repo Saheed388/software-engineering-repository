@@ -431,7 +431,7 @@ text-align: left;
 
 
 /* Media query for phone and tablet */
-@media (max-width: 1250px) {
+@media (max-width: 400px) {
     .container {
         flex-direction: column;
         height: 100%;
@@ -442,11 +442,20 @@ text-align: left;
         grid-template-rows: auto; /* Adjust rows as needed */
         border-radius: 0; /* Remove border radius if needed */
     }
-    
 
-    
+    .first-body{
+        min-width: 400px;
+        max-width: 400px;
+    }
+
+    .second-body{
+        min-width: 400px;
+        max-width: 400px;
+    }
 
 }
+
+
 
 
 
