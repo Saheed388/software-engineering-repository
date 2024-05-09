@@ -444,13 +444,15 @@ text-align: left;
     }
 
     .first-body{
-        min-width: 400px;
-        max-width: 400px;
+        grid-template-columns: 1fr; /* Display as a single column on smaller screens */
+        grid-template-rows: auto; /* Adjust rows as needed */
+        border-radius: 0;
     }
 
     .second-body{
-        min-width: 400px;
-        max-width: 400px;
+        grid-template-columns: 1fr; /* Display as a single column on smaller screens */
+        grid-template-rows: auto; /* Adjust rows as needed */
+        border-radius: 0;
     }
 
 }
