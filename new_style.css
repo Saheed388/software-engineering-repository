@@ -420,7 +420,7 @@ text-align: left;
 
 .foot{
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
     margin-top: 20px;
 
 }
@@ -431,69 +431,17 @@ text-align: left;
 
 
 /* Media query for phone and tablet */
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Adjust height for smaller screens */
-}
-
-.card {
-    width: 90%; /* Adjust width for smaller screens */
-    max-width: 400px; /* Adjust max-width for larger screens */
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    background-color: #f9f9f9;
-}
-
-.form-label {
-    margin-bottom: 10px;
-}
-
-.button {
-    margin-top: 20px;
-}
-
-.power {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.power span.highlight {
-    background-color: inherit;
-}
-
-/* Media queries for tablet */
-.container-main {
-    display: flex;
-    flex-wrap: wrap; /* Allow flex items to wrap onto multiple lines */
-    justify-content: space-between; /* Distribute items evenly along the main axis */
-    align-items: flex-start; /* Align items to the start of the cross axis */
-    gap: 20px;
-    padding: 20px; /* Add padding to the container */
-}
-
-/* Media query for phones */
-@media (max-width: 576px) {
-    .container-main {
-        flex-direction: column; /* Stack items vertically on phones */
-        align-items: stretch; /* Stretch items to fill the container width */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        height: 100%;
     }
-}
 
-/* Media query for tablets */
-@media (min-width: 577px) and (max-width: 992px) {
     .container-main {
-        flex-direction: column; /* Stack items vertically on phones */
-        align-items: stretch;    }
-}
-
-/* Media query for desktops */
-@media (min-width: 993px) {
-    .container-main {
-        flex-direction: column; /* Stack items vertically on phones */
-        align-items: stretch;    }
+        grid-template-columns: 1fr; /* Display as a single column on smaller screens */
+        grid-template-rows: auto; /* Adjust rows as needed */
+        border-radius: 0; /* Remove border radius if needed */
+    }
 }
 
 
