@@ -446,10 +446,13 @@ text-align: left;
     }
   
     .container-main {
+        
+        
       grid-template-columns: 1fr; /* Display as a single column */
       grid-template-rows: auto auto; /* Adjust rows as needed */
       border-radius: 0; /* Remove border radius if needed */
       margin: 0; /* Remove margin */
+      padding-left: 50px; 
     }
   
     .first-body {
@@ -457,7 +460,7 @@ text-align: left;
       /* max-width: 100%; Ensure content doesn't overflow */
       margin-left: 0px;
       margin-right: 0;
-      padding-left: 50px; /* Remove padding */
+      /* padding-left: 50px; Remove padding */
     }
   
     .second-body{
