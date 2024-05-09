@@ -431,43 +431,59 @@ text-align: left;
 
 
 /* Media query for phone and tablet */
-/* Default styles */
-.container-main {
-    display: grid;
-    grid-template-columns: 500px 250px;
-    grid-template-rows: 750px auto;
-    gap: 0;
-    border-radius: 100px;
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust height for smaller screens */
 }
 
-/* Media query for phones */
-@media (max-width: 576px) {
-    .container-main {
-        grid-template-columns: 1fr; /* Display as a single column on phones */
-        grid-template-rows: auto; /* Adjust rows as needed */
-        border-radius: 0; /* Remove border radius if needed */
+.card {
+    width: 90%; /* Adjust width for smaller screens */
+    max-width: 400px; /* Adjust max-width for larger screens */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.form-label {
+    margin-bottom: 10px;
+}
+
+.button {
+    margin-top: 20px;
+}
+
+.power {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.power span.highlight {
+    background-color: inherit;
+}
+
+/* Media queries for tablet */
+@media (min-width: 768px) {
+    .card {
+        width: 70%; /* Adjust width for tablets */
     }
 }
 
-/* Media query for tablets */
-@media (min-width: 577px) and (max-width: 992px) {
-    .container-main {
-        grid-template-columns: 1fr; /* Display as a single column on tablets */
-        grid-template-rows: auto; /* Adjust rows as needed */
-        border-radius: 0; /* Remove border radius if needed */
+/* Media queries for desktop */
+@media (min-width: 992px) {
+    .card {
+        width: 50%; /* Adjust width for desktops */
     }
 }
 
-/* Media query for desktops */
-@media (min-width: 993px) {
-    .container-main {
-        grid-template-columns: 500px 250px; /* Reset grid columns for desktops */
-        grid-template-rows: 750px auto; /* Reset grid rows for desktops */
-        border-radius: 100px; /* Reset border radius for desktops */
+/* Media queries for larger desktop */
+@media (min-width: 1200px) {
+    .card {
+        width: 40%; /* Adjust width for larger desktops */
     }
 }
-
-
 
 
 
