@@ -1,0 +1,450 @@
+
+body{
+    background-color: whitesmoke;
+}
+
+
+.container.head {
+    display: flex;
+    justify-content: space-between; /* Adjust spacing between image and list items */
+    align-items: center; /* Vertically center items */
+    
+}
+
+  
+  ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0; /* Remove default padding */
+    margin-left: 10px; 
+    color: navy;
+    font-size: 15px;
+  }
+
+  
+  ul li {
+    margin-right: 20px;
+  }
+  
+  ul li:last-child {
+    margin-right: 0; 
+  }
+  
+  .container.head img {
+    margin-right: 10px; /* Move the image to the right by 10px */
+  }
+  
+  /* body start from here */
+  .container-main{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+  }
+
+  
+  .container-main{
+    display: grid;
+    grid-template-columns: 500px 250px ;
+    grid-template-rows: 750px auto ;
+    gap: 0;
+    border-radius: 100px;
+
+  }
+#main-body .container-main{
+    border-radius: 10px;
+
+}
+  
+
+  .first-body{
+    background-color: white;
+  }
+h2{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h3{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+  .second-body{
+    background-color: rgb(1, 64, 93);
+  }
+
+  .first-body>h2{
+    align-self: flex-start;
+    margin-bottom: 50px; 
+    margin-top: 35px;
+    
+  }
+
+  /* FIRST NAME */
+
+.first-name {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.first-name .form-label {
+    align-self: flex-start;
+    margin-bottom: 5px;
+   
+}
+
+/* LAST NAME */
+
+.last-name {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.last-name .form-label {
+    align-self: flex-start;
+    margin-bottom: 5px; 
+    
+}
+
+/*  */
+
+.name-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.first-name,
+.last-name {
+    flex: 1;
+    margin-right: 10px; /* Adjust the spacing between first and last name */
+    
+}
+
+
+/* mail */
+.email {
+    display: flex;
+    flex-direction: column;
+}
+
+.email .form-label {
+    align-self: flex-start;
+    margin-bottom: 5px; 
+    margin-top: 5px;
+}
+
+.email{
+    width: 300px;
+    /* height: 40px; */
+    margin-left: 20px;
+    margin-right: 20px;
+
+
+}
+
+.email {
+    margin-bottom: 50px; 
+}
+
+/* payment */
+.Payment-info {
+    margin-top: 30px;
+    
+}
+
+.Payment-info h3 {
+    margin-top: 10px; /* Adjust the margin-top of the text */
+}
+
+.Payment-info svg {
+    margin-top: 10px; /* Adjust the margin-top of the SVG icon */
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+}
+
+.card .form-label {
+    align-self: flex-start;
+    margin-bottom: 5px; 
+    margin-top: 5px;
+}
+
+.card {
+    margin-bottom: 50px; 
+    width: 90%;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.button>button{
+    width: 90%;
+    background-color: rgb(6, 99, 94);
+    color: aliceblue;
+    height: 40px;
+    border-radius: 10px;
+    padding: 0;
+    border: 0;
+}
+
+.button>button{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+ 
+}
+
+
+/* increase the box height */
+
+.form-control {
+    height: 40px; /* Adjust the height as needed */
+}
+
+.name-container{
+    width: 95%;
+}
+
+p{
+    text-align: center;
+}
+
+.Payment-info h3>svg{
+    color: rgb(66, 112, 220);
+}
+
+.first-body svg{
+    color: rgb(66, 112, 220);
+}
+
+
+.powerby>h4{
+ text-align: center;
+}
+
+h4{
+    color: aliceblue;
+    width: 40%;
+    border-radius: 10px;
+    height: 30px;
+
+}
+
+button span{
+    
+    font-weight: bold;
+    color: white;
+   
+    font-size: 30px;
+}
+
+h4 button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+button{
+   background-color: rgb(177, 177, 177);
+    padding: 0;
+    border: 0;
+    border-radius: 5px;
+}
+
+
+.power {
+    background-color: #615f5f; /* Set the background color to match the text color */
+    display: inline-block; /* Ensure the background only spans the width of the text */
+    padding: 0 5px; 
+    color: aliceblue;
+}
+
+.power span {
+    background-color: inherit; 
+}
+
+.power {
+    text-align: center; /* Center-align the content */
+    background-color: #615f5f; /* Set the background color */
+    display: inline-block; /* Ensure the background only spans the width of the text */
+    padding: 5px 0; /* Adjust padding as needed */
+    color: aliceblue; /* Set text color */
+    width: 30%;
+    border-radius: 10px;
+    margin-left: 35%;
+}
+    
+
+.highlight{
+    font-size: 25px;
+}
+
+
+/* THE SECOND PART OF THE PAGE */
+
+.second-head{
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
+
+.par-one{
+    color: white;
+    text-align: left;
+
+
+}
+
+.par-one .num {
+    font-size: 50px;
+}
+
+.par-one .currency {
+    font-size: 20px;
+
+}
+
+.par-two{
+    color: white;
+    font-size: 10px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.par-two .year{
+    margin-right: 50px;
+    margin-bottom: 30px;
+
+
+}
+
+.par-two + ul {
+    display: block;
+
+}
+
+.listed-item li{
+    margin-bottom: 20px;
+
+}
+
+.par-two + ul{
+    color: white;
+    text-align: left;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.par-two li svg {
+    color: aliceblue;
+}
+
+
+.par-three{
+color: white;
+font-size: 20px;
+margin-bottom: 30px;
+text-align: left;
+
+
+}
+
+.agency{
+    text-align: left;
+    
+}
+
+.par-three{
+    margin-left: auto;
+    font-size: 15px;
+
+}
+
+.par-four{
+    color: white;
+font-size: 15px;
+margin-top: 50px;
+text-align: left;
+
+}
+
+ .container {
+        display: flex;
+        justify-content: center;
+        margin-left: 40px;
+    }
+
+
+    .owner-pic img {
+        border-radius: 50%;
+        color: aliceblue;
+    }
+    
+.owner-name{
+    color: aliceblue;
+    margin: 50x;
+    font-size: 20px;
+}
+
+.owner-pic img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.owner-pic .owner-name {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+
+/* Default styles */
+.container-main {
+    display: grid;
+    grid-template-columns: 500px 250px;
+    grid-template-rows: 750px auto;
+    gap: 0;
+    border-radius: 100px;
+}
+
+.foot{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.foot span{
+    color: red;
+}
+
+
+/* Media query for phone and tablet */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .container-main {
+        grid-template-columns: 1fr; /* Display as a single column on smaller screens */
+        grid-template-rows: auto; /* Adjust rows as needed */
+        border-radius: 0; /* Remove border radius if needed */
+    }
+}
+
+
+
+
+
