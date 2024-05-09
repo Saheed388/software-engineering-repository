@@ -413,7 +413,7 @@ text-align: left;
 .container-main {
     display: grid;
     grid-template-columns: 500px 250px;
-    grid-template-rows: 750px auto;
+    grid-template-rows: 850px auto;
     gap: 0;
     border-radius: 100px;
 }
