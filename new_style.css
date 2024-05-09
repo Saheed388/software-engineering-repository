@@ -452,14 +452,19 @@ text-align: left;
       margin: 0; /* Remove margin */
     }
   
-    .first-body, .second-body {
+    .first-body {
       width: 100%; /* Set width to 100% to occupy full width */
       max-width: 100%; /* Ensure content doesn't overflow */
       margin-left: 30px;
-      padding: 1; /* Remove padding */
+      padding: 0; /* Remove padding */
     }
   
-    /* Other adjustments as needed */
+    .second-body{
+        width: 100%; /* Set width to 100% to occupy full width */
+        max-width: 100%; /* Ensure content doesn't overflow */
+        margin-left: 0;
+        padding: 0;    
+    }
   }
   
   
