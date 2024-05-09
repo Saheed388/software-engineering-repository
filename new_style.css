@@ -431,30 +431,25 @@ text-align: left;
 
 
 /* Media query for phone and tablet */
-@media (max-width: 400px) {
-    .container {
-        flex-direction: column;
-        height: 100%;
-    }
+/* General styles */
 
+/* Ensure proper scaling on mobile devices */
+@media screen and (max-width: 400px) {
+    /* Adjust layout for smaller screens */
     .container-main {
-        grid-template-columns: 1fr; /* Display as a single column on smaller screens */
-        grid-template-rows: auto; /* Adjust rows as needed */
-        border-radius: 0; /* Remove border radius if needed */
+      grid-template-columns: 1fr; /* Display as a single column */
+      grid-template-rows: auto auto; /* Adjust rows as needed */
+      border-radius: 0; /* Remove border radius if needed */
     }
-
-    .first-body{
-        min-width: 400px;
-        max-width: 400px;
+  
+    .first-body, .second-body {
+      width: 100%; /* Set width to 100% to occupy full width */
+      max-width: none; /* Reset max-width */
     }
-
-    .second-body{
-        min-width: 400px;
-        max-width: 400px;
-    }
-
-}
-
+  
+    /* Other adjustments as needed */
+  }
+  
 
 
 
