@@ -442,6 +442,17 @@ text-align: left;
         grid-template-rows: auto; /* Adjust rows as needed */
         border-radius: 0; /* Remove border radius if needed */
     }
+
+    .first-body{
+        min-width: 400px;
+        max-width: 400px;
+    }
+
+    .second-body{
+        min-width: 400px;
+        max-width: 400px;
+    }
+
 }
 
 
