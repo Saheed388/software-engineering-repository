@@ -441,7 +441,9 @@ text-align: left;
         grid-template-columns: 1fr; /* Display as a single column on smaller screens */
         grid-template-rows: auto; /* Adjust rows as needed */
         border-radius: 0; /* Remove border radius if needed */
+        margin-right: 20px;
     }
+
 
     .first-body{
         grid-template-columns: 1fr; /* Display as a single column on smaller screens */
